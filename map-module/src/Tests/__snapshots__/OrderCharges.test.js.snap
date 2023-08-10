@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Order Charges component correctly 1`] = `
+<div>
+  <p
+    className="order-items"
+  >
+    Subtotal 
+    <span>
+      $26.74
+    </span>
+  </p>
+  <div
+    className="solid-divider"
+  />
+  <p
+    className="order-items"
+  >
+    Delivery Fee 
+    <span>
+      $3.99
+    </span>
+  </p>
+  <p
+    className="order-items"
+  >
+    Tax 
+    <span>
+      $5.64
+    </span>
+  </p>
+  <p
+    className="order-items"
+  >
+    Tip 
+    <span>
+      $5.00
+    </span>
+  </p>
+  <div
+    className="dashed-divider"
+  />
+  <p
+    className="order-items"
+  >
+    Total 
+    <span>
+      $41.37
+    </span>
+  </p>
+  <div
+    className="dashed-divider"
+  />
+</div>
+`;

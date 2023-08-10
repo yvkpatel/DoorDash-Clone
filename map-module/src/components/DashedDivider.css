@@ -1,0 +1,4 @@
+.dashed-divider {
+    border-bottom: 0.3px dotted black;
+    opacity: 0.5;
+}

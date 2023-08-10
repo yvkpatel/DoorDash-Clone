@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+  data-testid="payment-page"
+>
+  <header
+    className="header"
+  >
+    <img
+      alt="YUMI Logo"
+      className="logo"
+      src="logo-header.png"
+    />
+    <a
+      className="accSettings"
+      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+    >
+      Account Settings
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+        data-testid="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#2DB6F0",
+          }
+        }
+      >
+        Logout
+      </button>
+    </a>
+  </header>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-8 col-12"
+      >
+         
+        <div>
+          <h1>
+            Order Summary
+          </h1>
+          <div
+            className="list"
+          >
+            <div
+              className="orderCustomer"
+            >
+              <div
+                className="card"
+              >
+                <div
+                  className="card-body"
+                >
+                  <div
+                    className="card-title h5"
+                  >
+                    Fries
+                  </div>
+                  <p
+                    className="card-text"
+                  >
+                    $
+                    3.55
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2>
+            Total: $
+          </h2>
+        </div>
+      </div>
+      <div
+        className="col-md-4 col-6"
+      >
+         
+        <div
+          className="container2 container"
+        >
+          <h1>
+             Payment Information 
+          </h1>
+          <form
+            className=""
+            onSubmit={[Function]}
+          >
+            <div
+              className="mb-3 row"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="col"
+                >
+                  <div
+                    className="form-floating"
+                  >
+                    <input
+                      className="form-control"
+                      id="floatingNum"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      htmlFor="floatingNum"
+                    >
+                      Card Number
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="mb-3 col"
+              >
+                <div
+                  className="form-floating"
+                >
+                  <input
+                    className="form-control"
+                    id="floatingExpiry"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    htmlFor="floatingExpiry"
+                  >
+                    Expiry (MM/YY)
+                  </label>
+                </div>
+              </div>
+              <div
+                className="mb-3 col"
+              >
+                <div
+                  className="form-floating"
+                >
+                  <input
+                    className="form-control"
+                    id="floatingCVV"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    htmlFor="floatingCVV"
+                  >
+                    CVV
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button
+              className="btn btn-primary"
+              disabled={false}
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

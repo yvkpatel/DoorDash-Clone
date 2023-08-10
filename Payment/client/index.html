@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stripe Checkout</title>
+  </head>
+  <body>
+    <h1>Checkout with stripe</h1>
+
+    <button type="submit" id="btn">Click me!</button>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script charset="utf-8">
+      var stripe;
+      fetch("/public-keys")
+        .then((response) => response.json())
+        .then((data) => {
+          stripe = Stripe(data.key);
+        })
+        .catch((error) => console.error(error));
+
+      var btn = document.getElementById("btn");
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        fetch("/my-route", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            test: 123,
+            payment_method: "pm_card_visa",
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("Success:", data);
+          })
+          .catch((error) => console.error(error));
+      });
+    </script>
+  </body>
+</html>

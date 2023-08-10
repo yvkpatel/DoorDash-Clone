@@ -1,0 +1,220 @@
+/* TEMPORARY STYLING TO MAKE THE WEBSITE SLIGHTLY LESS EYE BLEEDINGLY BAD*/
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ---------------- HEADER ---------------- */
+.header {
+  display: flex;
+  background-color: #FE5757;
+}
+
+.logo {
+  height: 100px;
+  width: 240px;
+}
+
+.accSettings {
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: 15px;
+  align-self: center;
+  font-size: large;
+}
+
+.header .button {
+  align-self: center;
+  font-size: large;
+  margin-right: 15px;
+}
+
+/* ---------------- BUTTONS ---------------- */
+.button {
+  display: inline-block;
+  background: #000000;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+/* ---------------- CARD LIST ---------------- */
+.list {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 80vh;
+  margin: 10px;
+}
+/*For restaurant list because it was getting weird*/
+.list2 {
+  display: flex;
+  flex-direction: column;
+  background: #EEEEEE;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 100px;
+  min-width: 500px;
+  border-radius: 5px;
+  align-items: left;
+  overflow-y: scroll;
+  height: 500px;
+}
+.testCard {
+  background: #FFFFFF;
+  border: none;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 3px;
+  width: 90%;
+}
+
+
+/* ---------------- CUSTOM ALERT FOR CUSTOMER MAP ---------------- */
+.alert-custom{
+  padding-top: 19vh;
+  background-color:#FE5757;
+  color:#fff;
+}
+
+.customerMapMsg{
+  background-color:#FE5757;
+  color:#fff;
+  border-radius: 5px;
+}
+.icon{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: #000000;
+  border-style: outset;
+}
+.card-details{
+  background-color: gray;
+  float: right;
+  margin-top: 0px;
+  padding: 0px;
+  
+}
+
+/* Title Block */
+.title-block {
+  display: flex;
+  background-color: #FE5757;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+/*Containers*/
+.container2 {
+  background: #EEEEEE;
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 5px solid #FE5757;
+  padding: 30px;
+  border-radius: 5px;
+}
+/* ---------------- DRIVER CARD ---------------- */
+.driverTask {
+  background: #FFFFFF;
+  border: solid #B7B7B7;
+  margin: 0px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.driverTaskHeader {
+  display: flex;
+  padding: 4px 10px;
+  border: 1px #B7B7B7;
+  border-style: none none solid none;
+  align-items: center;
+}
+
+.driverTaskHeader h1 {
+  margin: 0px;
+}
+
+.driverTaskHeader .button {
+  align-self: center;
+  font-size: large;
+  margin-left: auto;
+  margin-right: 0px
+}
+
+.driverTaskDetails {
+  margin: 10px;
+}
+
+/* ---------------- DRIVER DASH MAIN CONTENT ---------------- */
+.driverDashMain {
+  display: flex;
+}
+
+.driverDashMain > .list {
+  flex-grow: 2;
+}
+
+.dashInfoBox {
+  display: flex;
+  flex-direction: column;
+  border: solid #B7B7B7;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  height: fit-content;
+  height: -moz-fit-content;
+}
+
+/*Form Styling*/
+.register-restaurant-form
+{
+    text-align: center;
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    padding:10px;
+    margin: 50px;
+}
+
+.reg-text
+{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}

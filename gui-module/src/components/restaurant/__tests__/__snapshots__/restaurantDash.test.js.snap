@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+  datatest-id="register-res"
+>
+  <header
+    className="header"
+  >
+    <img
+      alt="YUMI Logo"
+      className="logo"
+      src="logo-header.png"
+    />
+    <a
+      className="accSettings"
+      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+    >
+      Account Settings
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+        data-testid="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#2DB6F0",
+          }
+        }
+      >
+        Logout
+      </button>
+    </a>
+  </header>
+  <div
+    className="driverDashMain"
+  >
+    <div
+      className="dashInfoBox"
+    >
+      <h1>
+        Account Summary
+      </h1>
+      <p>
+        Income: 
+        $9689.25
+      </p>
+      <p>
+        Orders: 
+        212
+      </p>
+    </div>
+    <div
+      className="list"
+      data-testid="dash-list"
+    >
+      <div
+        className="driverTask"
+      >
+        <div
+          className="driverTaskHeader"
+        >
+          <h2>
+            Presidential Pizza
+          </h2>
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Complete
+          </button>
+        </div>
+        <div
+          className="driverTaskDetails"
+        >
+          <p>
+            Order Comments: 
+          </p>
+        </div>
+      </div>
+      <div
+        className="driverTask"
+      >
+        <div
+          className="driverTaskHeader"
+        >
+          <h2>
+            Famous Pizza, I guess.
+          </h2>
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Complete
+          </button>
+        </div>
+        <div
+          className="driverTaskDetails"
+        >
+          <p>
+            Order Comments: 
+          </p>
+        </div>
+      </div>
+      <div
+        className="driverTask"
+      >
+        <div
+          className="driverTaskHeader"
+        >
+          <h2>
+            Pentagram Pizza
+          </h2>
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Complete
+          </button>
+        </div>
+        <div
+          className="driverTaskDetails"
+        >
+          <p>
+            Order Comments: 
+          </p>
+        </div>
+      </div>
+      <div
+        className="driverTask"
+      >
+        <div
+          className="driverTaskHeader"
+        >
+          <h2>
+            Curious Pizza
+          </h2>
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Complete
+          </button>
+        </div>
+        <div
+          className="driverTaskDetails"
+        >
+          <p>
+            Order Comments: 
+          </p>
+        </div>
+      </div>
+      <div
+        className="driverTask"
+      >
+        <div
+          className="driverTaskHeader"
+        >
+          <h2>
+            Pizza, dude.
+          </h2>
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Complete
+          </button>
+        </div>
+        <div
+          className="driverTaskDetails"
+        >
+          <p>
+            Order Comments: 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

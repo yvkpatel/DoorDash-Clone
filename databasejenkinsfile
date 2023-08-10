@@ -1,0 +1,45 @@
+pipeline {
+    agent { docker { image 'python:3.7.11' } }
+    
+    stages {
+        stage('Build') {
+        
+         steps {
+                echo 'Building Database Module...'
+                sh """
+                python --version
+                pip install -r requirements.txt
+                pip install -e .
+                cd database_module/src
+                export FLASK_APP=FlaskAPI
+                export FLASK_ENV=development
+                flask run &
+                sleep '7'
+                """
+               }
+            }      
+        stage('Unit Tests') {
+            steps {
+                echo 'Running Database Unit Tests...'
+                script {
+                        dir("database_module")
+                        {
+                        sh 'pytest .'
+                        }
+                } 
+            }
+        }
+         stage('Integration Tests') {
+            steps {
+                echo 'Integration Tests...'
+                echo 'Skipped due to Integration Tests not implemented yet...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+                echo 'Skipped due to Deployment not implemented yet...'
+            }
+        }
+    }
+}

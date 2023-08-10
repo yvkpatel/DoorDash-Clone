@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="loginForm"
+>
+  <h3
+    className="login-text"
+  >
+    <strong>
+      SIGN IN
+    </strong>
+  </h3>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <div
+      className="details"
+      data-testid="textfields"
+    >
+      <label
+        className="form-label"
+      >
+        Username
+      </label>
+      <input
+        className="form-control"
+        data-testid="emailfield"
+        onChange={[Function]}
+        placeholder="pizza@gmail.com"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="details"
+    >
+      <label
+        className="form-label"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        data-testid="passwordfield"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="details"
+      data-testid="signinfield"
+    >
+      <label
+        className="form-label"
+      >
+        Sign in as:
+      </label>
+      <select
+        aria-label="Default select example"
+        className="form-select"
+        data-testid="select"
+        onChange={[Function]}
+        placeholder="User Type"
+        type="user type"
+        value=""
+      >
+        <option>
+          Choose User Type
+        </option>
+        <option
+          value="Customer"
+        >
+          Customer
+        </option>
+        <option
+          value="Driver"
+        >
+          Driver
+        </option>
+        <option
+          value="Restaurant"
+        >
+          Restaurant
+        </option>
+      </select>
+    </div>
+    <button
+      className="btn-primary btn btn-primary"
+      data-testid="goButton"
+      disabled={false}
+      type="submit"
+    >
+       
+      Go
+       
+    </button>
+  </form>
+</div>
+`;

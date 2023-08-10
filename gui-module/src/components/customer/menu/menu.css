@@ -1,0 +1,42 @@
+/* Stylesheet for Menu */
+.details{
+  border-radius: 5px;
+  border:black;
+  display: flex;
+  padding: 5px;
+  height: auto;
+  flex-direction: column;
+}
+
+.thumbnail{
+   width: 200px; 
+   height: 200px;
+   border: rgb(202, 202, 202);
+   border-radius: 5px;
+   border-style: groove;
+   margin: 0px;
+   padding: 0px;
+}
+
+.add-to-cart{
+  border-radius: 5px;
+  border:black;
+  display: flex;
+  padding: 0px;
+  height: auto;
+  flex-direction: column;
+}
+
+.menulist {
+  display: flex;
+  flex-direction: column;
+  background: #EEEEEE;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 100px;
+  min-width: 500px;
+  border-radius: 5px;
+  align-items: center;
+  overflow-y: scroll;
+  height: 100%;
+}

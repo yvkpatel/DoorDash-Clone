@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders OrderItem component correctly 1`] = `
+<div
+  className="order-details"
+>
+  <p
+    className="order-items"
+  >
+    2
+    <span>
+      Chicken Shawerma
+    </span>
+    <span>
+      $9.87
+    </span>
+  </p>
+  <p
+    className="order-items"
+  >
+    3
+    <span>
+      Chicken Shawerma Poutine
+    </span>
+    <span>
+      $16.87
+    </span>
+  </p>
+</div>
+`;

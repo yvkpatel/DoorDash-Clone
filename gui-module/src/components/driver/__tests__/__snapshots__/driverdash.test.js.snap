@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="header"
+  >
+    <img
+      alt="YUMI Logo"
+      className="logo"
+      src="logo-header.png"
+    />
+    <a
+      className="accSettings"
+      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+    >
+      Account Settings
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+        data-testid="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#2DB6F0",
+          }
+        }
+      >
+        Logout
+      </button>
+    </a>
+  </header>
+  <div
+    className="driverDashMain"
+  >
+    <div
+      className="dashInfoBox"
+      data-testid="driver-dash"
+    >
+      <h1>
+        Account Summary
+      </h1>
+      <p>
+        Income: 
+        9.24$
+      </p>
+      <p>
+        Orders: 
+        2
+      </p>
+    </div>
+    <div
+      className="list"
+      data-testid="dash-list"
+    >
+      <div
+        className="driverTask"
+      >
+        <div
+          className="driverTaskHeader"
+        >
+          <h2>
+            John Doe
+          </h2>
+          <a
+            href="../drivermap"
+            onClick={[Function]}
+          >
+            <button
+              className="button"
+              data-testid="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "background": "#2DB6F0",
+                }
+              }
+            >
+              Accept
+            </button>
+          </a>
+        </div>
+        <div
+          className="driverTaskDetails"
+        >
+          <p>
+            Pick up: 
+            Boston Pizza
+          </p>
+          <p>
+            Deliver: 
+            1600 Pennsylvania Avenue
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

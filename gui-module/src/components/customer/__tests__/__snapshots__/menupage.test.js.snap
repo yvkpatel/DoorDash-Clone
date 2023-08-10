@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+  data-testid="menu-page"
+>
+  <header
+    className="header"
+  >
+    <img
+      alt="YUMI Logo"
+      className="logo"
+      src="logo-header.png"
+    />
+    <a
+      className="accSettings"
+      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+    >
+      Account Settings
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+        data-testid="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#2DB6F0",
+          }
+        }
+      >
+        Logout
+      </button>
+    </a>
+  </header>
+  <div>
+    <div
+      className="menulist"
+    >
+      <div
+        className="testCard"
+        style={
+          Object {
+            "display": "flex",
+            "width": "100%",
+          }
+        }
+      >
+        <img
+          alt="foodItem"
+          className="thumbnail"
+          src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=300,height=300,format=jpeg,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/f71cc006-15c5-40be-bfac-91cdfdb0adb8-retina-large-jpeg"
+        />
+        <div
+          className="details"
+        >
+          <h1
+            className="md-1"
+          >
+            Pizza
+          </h1>
+          <hr
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginTop": "2px",
+                "width": "100%",
+              }
+            }
+          />
+          <p
+            style={
+              Object {
+                "margin": "0px",
+                "verticalAlign": "top",
+              }
+            }
+          >
+            This pizza has been finely topped with chedder cheese over a 100% pulverized tomato base on our signature creamy pizza dough.
+          </p>
+          <p
+            style={
+              Object {
+                "float": "right",
+                "marginBottom": "0px",
+                "marginTop": "16px",
+                "verticalAlign": "top",
+              }
+            }
+          >
+            $
+            3.55
+             CAD
+          </p>
+        </div>
+        <div
+          className="add-to-cart"
+        >
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Add to Cart
+          </button>
+          <p>
+            Quantity:
+          </p>
+          <p>
+            1
+          </p>
+        </div>
+      </div>
+      <div
+        className="testCard"
+        style={
+          Object {
+            "display": "flex",
+            "width": "100%",
+          }
+        }
+      >
+        <img
+          alt="foodItem"
+          className="thumbnail"
+          src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=300,height=300,format=jpeg,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/f71cc006-15c5-40be-bfac-91cdfdb0adb8-retina-large-jpeg"
+        />
+        <div
+          className="details"
+        >
+          <h1
+            className="md-1"
+          >
+            Pizza 2
+          </h1>
+          <hr
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginTop": "2px",
+                "width": "100%",
+              }
+            }
+          />
+          <p
+            style={
+              Object {
+                "margin": "0px",
+                "verticalAlign": "top",
+              }
+            }
+          >
+            This pizza has been finely topped with chedder cheese over a 100% pulverized tomato base on our signature creamy pizza dough.
+          </p>
+          <p
+            style={
+              Object {
+                "float": "right",
+                "marginBottom": "0px",
+                "marginTop": "16px",
+                "verticalAlign": "top",
+              }
+            }
+          >
+            $
+            6.55
+             CAD
+          </p>
+        </div>
+        <div
+          className="add-to-cart"
+        >
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Add to Cart
+          </button>
+          <p>
+            Quantity:
+          </p>
+          <p>
+            1
+          </p>
+        </div>
+      </div>
+      <div
+        className="testCard"
+        style={
+          Object {
+            "display": "flex",
+            "width": "100%",
+          }
+        }
+      >
+        <img
+          alt="foodItem"
+          className="thumbnail"
+          src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=300,height=300,format=jpeg,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/f71cc006-15c5-40be-bfac-91cdfdb0adb8-retina-large-jpeg"
+        />
+        <div
+          className="details"
+        >
+          <h1
+            className="md-1"
+          >
+            Pizza 3
+          </h1>
+          <hr
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginTop": "2px",
+                "width": "100%",
+              }
+            }
+          />
+          <p
+            style={
+              Object {
+                "margin": "0px",
+                "verticalAlign": "top",
+              }
+            }
+          >
+            This pizza has been finely topped with chedder cheese over a 100% pulverized tomato base on our signature creamy pizza dough.
+          </p>
+          <p
+            style={
+              Object {
+                "float": "right",
+                "marginBottom": "0px",
+                "marginTop": "16px",
+                "verticalAlign": "top",
+              }
+            }
+          >
+            $
+            5.55
+             CAD
+          </p>
+        </div>
+        <div
+          className="add-to-cart"
+        >
+          <button
+            className="button"
+            data-testid="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#2DB6F0",
+              }
+            }
+          >
+            Add to Cart
+          </button>
+          <p>
+            Quantity:
+          </p>
+          <p>
+            1
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a
+    href="../payment"
+    onClick={[Function]}
+  >
+    <button
+      className="button"
+      data-testid="button"
+      style={
+        Object {
+          "background": "#2DB6F0",
+        }
+      }
+    >
+      Checkout
+    </button>
+  </a>
+</div>
+`;

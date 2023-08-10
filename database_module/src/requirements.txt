@@ -1,0 +1,4 @@
+pymongo
+cerberus
+flask
+dnspython

@@ -1,0 +1,64 @@
+{
+  "restaurant": [
+    {
+      "id" : 1,
+      "name" : "Boston Pizza",
+      "phone" : "709-987-6543",
+      "address": "75 Kelsey Drive",
+      "postal_code": "A1K 6C4",
+      "menu": "MenuPage.js",
+      "link": "https://bostonpizza.com/en/index.html"
+    },
+    {
+      "id" : 2,
+      "name" : "Pizza House",
+      "phone" : "709-947-3210",
+      "address": "90 Ropewalk Lane",
+      "postal_code": "A1K 7D3",
+      "link": "https://pizzahousenl.ca/"
+    },
+    {
+      "id" : 3,
+      "name" : "Dominos Pizza",
+      "phone" : "709-547-6543",
+      "address": "271 Blackmarsh Road",
+      "postal_code": "A1K 8E2",
+      "link": "https://www.dominos.ca/"
+    }
+  ],  
+  "items": [
+    {
+      "id": 1,
+      "title": "Pizza",
+      "price": 3.55,
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=300,height=300,format=jpeg,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/f71cc006-15c5-40be-bfac-91cdfdb0adb8-retina-large-jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Pizza 2",
+      "price": 6.55,
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=300,height=300,format=jpeg,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/f71cc006-15c5-40be-bfac-91cdfdb0adb8-retina-large-jpeg"
+    }
+  ],
+  "payment": [],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Rebecca",
+      "email": "rjcarolan@mun.ca",
+      "phone": "709-123-4567",
+      "address": "123 yolo swag st.",
+      "postal_code": "A1K 3C7"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

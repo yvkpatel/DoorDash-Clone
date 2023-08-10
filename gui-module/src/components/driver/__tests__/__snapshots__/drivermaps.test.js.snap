@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="driver-map"
+>
+  <header
+    className="header"
+  >
+    <img
+      alt="YUMI Logo"
+      className="logo"
+      src="logo-header.png"
+    />
+    <a
+      className="accSettings"
+      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+    >
+      Account Settings
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="button"
+        data-testid="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#2DB6F0",
+          }
+        }
+      >
+        Logout
+      </button>
+    </a>
+  </header>
+  <div
+    className="driverButtons container"
+    style={
+      Object {
+        "padding": "4vh",
+      }
+    }
+  >
+    <div
+      className="pickButton row"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="vstack gap-5"
+        >
+          <button
+            className="btn btn-custom btn-lg"
+            disabled={false}
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#2DB6F0",
+                "color": "#FFFFFF",
+              }
+            }
+            type="button"
+          >
+            Pick Order
+          </button>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-custom btn-lg"
+              disabled={true}
+              style={
+                Object {
+                  "backgroundColor": "#2DB6F0",
+                  "color": "#FFFFFF",
+                }
+              }
+              type="button"
+            >
+              Deliver Order
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div>
+          <img
+            alt="map"
+            src="map_filler_image.jpeg"
+            style={
+              Object {
+                "display": "inline-flex",
+                "height": "70vh",
+                "width": "75vw",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

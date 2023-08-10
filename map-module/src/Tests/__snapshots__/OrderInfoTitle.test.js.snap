@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Order Title component correctly 1`] = `
+<div>
+  <h2
+    className="sidepanel-title"
+  >
+    Order Details
+  </h2>
+</div>
+`;

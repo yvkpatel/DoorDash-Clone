@@ -1,0 +1,40 @@
+.register-restaurant-form
+{
+    text-align: center;
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    padding:10px;
+    margin: 50px;
+}
+
+.reg-text
+{
+    color: red;
+    font-size: 40px;
+}
+
+
+.btn-primary
+{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 10px;
+    background-color: #2DB6F0 !important;
+    color: white !important;
+    border-color:  #2DB6F0 !important;
+}
+
+
+.form-group
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:50%;
+    max-width: 250px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+
+
+
+

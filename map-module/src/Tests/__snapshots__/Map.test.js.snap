@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map tests renders Map component correctly 1`] = `
+<div
+  className="MapDiv"
+>
+  <div />
+  <div>
+    Loading...
+  </div>
+</div>
+`;

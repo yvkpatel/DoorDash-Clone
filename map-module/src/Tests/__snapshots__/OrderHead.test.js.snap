@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Order Header component correctly 1`] = `
+<div>
+  <p>
+    Resto Beirut
+  </p>
+  <p>
+    Order #
+    16899
+  </p>
+</div>
+`;

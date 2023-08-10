@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidepanel tests closes and opens the side panel when the arrow button is pressed 1`] = `ReactWrapper {}`;
+
+exports[`Sidepanel tests closes and opens the side panel when the arrow button is pressed 2`] = `ReactWrapper {}`;
+
+exports[`Sidepanel tests renders Sidepanel component correctly 1`] = `
+<div
+  className="sidepanel-container"
+>
+  <div
+    className="order-container"
+  >
+    <div
+      className="order-info mb-4"
+    >
+      <img
+        alt="Logo"
+        width="50vh"
+      />
+    </div>
+    <div>
+      <div>
+        <h2
+          className="sidepanel-title"
+        >
+          Order Details
+        </h2>
+      </div>
+      <div
+        className="solid-divider"
+      />
+      <div>
+        <p>
+          Resto Beirut
+        </p>
+        <p>
+          Order #
+          16899
+        </p>
+      </div>
+      <div
+        className="solid-divider"
+      />
+      <div
+        className="order-details"
+      >
+        <p
+          className="order-items"
+        >
+          2
+          <span>
+            Chicken Shawerma
+          </span>
+          <span>
+            $9.87
+          </span>
+        </p>
+        <p
+          className="order-items"
+        >
+          3
+          <span>
+            Chicken Shawerma Poutine
+          </span>
+          <span>
+            $16.87
+          </span>
+        </p>
+      </div>
+      <div
+        className="dashed-divider"
+      />
+      <div>
+        <p
+          className="order-items"
+        >
+          Subtotal 
+          <span>
+            $26.74
+          </span>
+        </p>
+        <div
+          className="solid-divider"
+        />
+        <p
+          className="order-items"
+        >
+          Delivery Fee 
+          <span>
+            $3.99
+          </span>
+        </p>
+        <p
+          className="order-items"
+        >
+          Tax 
+          <span>
+            $5.64
+          </span>
+        </p>
+        <p
+          className="order-items"
+        >
+          Tip 
+          <span>
+            $5.00
+          </span>
+        </p>
+        <div
+          className="dashed-divider"
+        />
+        <p
+          className="order-items"
+        >
+          Total 
+          <span>
+            $41.37
+          </span>
+        </p>
+        <div
+          className="dashed-divider"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sidepanel-toggle"
+    onClick={[Function]}
+  >
+    <img
+      alt="arrow"
+      width="100%"
+    />
+  </div>
+</div>
+`;
